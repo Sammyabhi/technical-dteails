@@ -1,0 +1,60 @@
+.configurator {
+    position:absolute;
+    right: 15px;
+    width: 150px;
+    top: 5px;
+    color: white;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+
+    .configurator__section__title {
+        margin: 5px 0;
+        border-radius: 20px;
+        background: #ffffff;
+        color: #000000;
+        transition: 0.3s ease;
+
+        a {
+            color: #000000;
+            transition: 0.3s ease;
+        }
+
+        &.active {
+            background: #000000;
+            color: #ffffff;
+
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.configurator__section__values {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-right: 0;
+    margin-left: auto;
+    align-items: center;
+}
+
+.item__dot {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 12px 0;
+
+    .item__label {
+        opacity: 0;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+    pointer-events: none;
+    height: 0;
+}

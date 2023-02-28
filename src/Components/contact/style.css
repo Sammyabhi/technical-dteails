@@ -1,0 +1,29 @@
+.position_back{
+    position: fixed;
+    top: 3%;
+    left: 1%;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    padding: 0;
+    background-color: rgb(196, 196, 255);
+  }
+  
+  .position_back img {
+    width: 100%;
+  }
+  
+  .position_cross{
+    position: fixed;
+    top: 3%;
+    right: 1%;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    background-color: rgb(196, 200, 255);
+  } 
+  
+  .position_cross img {
+    width: 100%;
+  }
